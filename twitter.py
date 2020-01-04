@@ -41,6 +41,6 @@ class TwitterBot:
                 except Exception as ex:
                     time.sleep(10)
 
-vi = TwitterBot('','') #Enter your email and password
+vi = TwitterBot('your_username','your_password') #Enter your email and password
 vi.login()
-vi.like_tweet('') #Enter the hashtag that you want to search
+vi.like_tweet('hashtag-you-like') #Enter the hashtag-you-like
