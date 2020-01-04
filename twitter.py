@@ -43,4 +43,4 @@ class TwitterBot:
 
 vi = TwitterBot('','') #Enter your email and password
 vi.login()
-vi.like_tweet('tech')
+vi.like_tweet('') #Enter the hashtag that you want to search
